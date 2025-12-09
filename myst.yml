@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+site:
+  template: book-theme
+
+project:
+  id: 019b0494-eab0-7b61-9aa7-184fe4847f03
+  github: https://github.com/joaoprocopio/pydsa
+
+  toc:
+    - file: notebooks/01_estruturas_de_dados/01_big_o_notation.ipynb
+    - file: notebooks/01_estruturas_de_dados/02_array.ipynb
+    - file: notebooks/01_estruturas_de_dados/03_linked_list.ipynb
+    - file: notebooks/01_estruturas_de_dados/04_queues.ipynb
+    - file: notebooks/01_estruturas_de_dados/05_hashmap.ipynb
+    - file: notebooks/01_estruturas_de_dados/06_stack.ipynb
+    - file: notebooks/01_estruturas_de_dados/07_trees.ipynb
+    - file: notebooks/01_estruturas_de_dados/08_grafos.ipynb

@@ -7,11 +7,16 @@ material de referência pro [curso](https://hub.la/g/L8wi9vio7WPnWbmF8ZIO) de ds
 ### pre-requisitos
 - ter uv instalado: https://zed.dev/docs/installation
 
-### comandos
+### desenvolver
 
 ```sh
 uv sync
 uv run jupyter lab
 ```
 
-> esse comando instala as dependências necessárias e cria um kernel pra vc conseguir executar o REPL dentro dos notebooks
+### visualizar
+
+```sh
+uv sync
+uv run jupyter book start
+```

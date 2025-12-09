@@ -10,6 +10,7 @@ dependencies = []
 dev = [
     "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
+    "jupyter-book>=2.1.0",
     "ruff>=0.14.8",
 ]
 
