@@ -1,14 +1,11 @@
 [project]
 name = "pydsa"
-version = "0.1.0"
-description = "Add your description here"
+description = "dsa"
 readme = "README.md"
+version = "0.1.0"
 requires-python = ">=3.13"
-dependencies = []
-
-[dependency-groups]
-dev = [
-    "ipykernel>=7.0.1",
+dependencies = [
+    "marimo>=0.18.4",
 ]
 
 [tool.ruff.lint]
