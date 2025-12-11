@@ -2,12 +2,9 @@
 name = "pydsa"
 description = "dsa"
 readme = "readme.md"
-version = "0.1.0"
+version = "0.0.1"
 requires-python = ">=3.13"
-dependencies = []
-
-[dependency-groups]
-dev = [
+dependencies = [
     "jupyter>=1.1.1",
     "jupyter-book>=2.1.0",
 ]

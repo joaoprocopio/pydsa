@@ -27,7 +27,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Install the project
-        run: uv sync --locked --all-extras --dev
+        run: uv sync --locked
 
       - name: Build the book
         run: uv run jupyter book build --strict --ci --html

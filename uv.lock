@@ -1060,17 +1060,13 @@ wheels = [
 name = "pydsa"
 version = "0.1.0"
 source = { virtual = "." }
-
-[package.dev-dependencies]
-dev = [
+dependencies = [
     { name = "jupyter" },
     { name = "jupyter-book" },
 ]
 
 [package.metadata]
-
-[package.metadata.requires-dev]
-dev = [
+requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "jupyter-book", specifier = ">=2.1.0" },
 ]
