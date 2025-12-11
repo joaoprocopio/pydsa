@@ -1,6 +1,7 @@
 # pydsa
 
-material de referência pro [curso](https://hub.la/g/L8wi9vio7WPnWbmF8ZIO) de dsa do Augusto Galego.  
+material de referência do [curso](https://hub.la/g/L8wi9vio7WPnWbmF8ZIO).  
+esse material serve pra ir desenvolvendo entendimento no assunto.
 
 ## setup no [zed](https://zed.dev/)
 
