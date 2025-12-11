@@ -13,10 +13,3 @@ material de referência pro [curso](https://hub.la/g/L8wi9vio7WPnWbmF8ZIO) de ds
 uv sync
 uv run jupyter lab
 ```
-
-### visualizar
-
-```sh
-uv sync
-uv run jupyter book start
-```
