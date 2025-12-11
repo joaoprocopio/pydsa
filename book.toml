@@ -1,7 +1,4 @@
-# [book]
-# title = "PyDSA"
-# src = "src"
-
 [output.html]
 
 [preprocessor.jupyter]
+embed_images = true
