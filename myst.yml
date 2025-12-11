@@ -7,7 +7,6 @@ site:
 project:
   id: 019b0494-eab0-7b61-9aa7-184fe4847f03
   github: https://github.com/joaoprocopio/pydsa
-
   toc:
     - file: notebooks/01_estruturas_de_dados/01_big_o_notation.ipynb
     - file: notebooks/01_estruturas_de_dados/02_array.ipynb
