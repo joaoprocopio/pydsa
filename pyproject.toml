@@ -1,18 +1,13 @@
 [project]
 name = "pydsa"
 description = "dsa"
-readme = "README.md"
+readme = "readme.md"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = []
 
 [dependency-groups]
 dev = [
-    "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
     "jupyter-book>=2.1.0",
-    "ruff>=0.14.8",
 ]
-
-[tool.ruff.lint]
-ignore = ["F401", "E402"]
