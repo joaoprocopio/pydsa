@@ -26,7 +26,7 @@ jobs:
       - name: Build the book
         run: mdbook build
         env:
-          PATH: "${{ github.workspace }}/bin:${{ env.PATH }}"
+          PATH: ${{ github.workspace }}/bin:${{ env.PATH }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
