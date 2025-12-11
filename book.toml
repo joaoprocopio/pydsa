@@ -1,1 +1,7 @@
-# [preprocessor.jupyter]
+# [book]
+# title = "PyDSA"
+# src = "src"
+
+[output.html]
+
+[preprocessor.jupyter]
