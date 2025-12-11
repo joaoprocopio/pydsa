@@ -1,9 +1,6 @@
 name: deploy book to github pages
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
@@ -20,7 +17,7 @@ env:
 
 jobs:
   build:
-    name: Build
+    name: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -44,7 +41,7 @@ jobs:
           path: ./_build/html
 
   deploy:
-    name: Deploy
+    name: deploy
     needs: build
     runs-on: ubuntu-latest
 
