@@ -1,3 +1,5 @@
+[introdução](./INTRO.md)
+
 - [introdução a estruturas de dados]()
   - [big o notation](./01_estruturas_de_dados/01_big_o_notation.ipynb)
   - [array](./01_estruturas_de_dados/02_array.ipynb)
