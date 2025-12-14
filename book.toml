@@ -1,6 +1,6 @@
 [book]
 title = "estruturas de dados em python"
-language = "en"
+language = "pt-br"
 multilingual = false
 src = "src"
 
